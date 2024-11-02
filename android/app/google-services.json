@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "864118769974",
+    "project_id": "crossroads-4a1f8",
+    "storage_bucket": "crossroads-4a1f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864118769974:android:af97a389bee1d9dd588b97",
+        "android_client_info": {
+          "package_name": "com.ex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864118769974-fla22p99r7vqlnll09rou0dsjk04ohf7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV01pp9zvi_OtFltqvjmAVxiNVenCOVyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864118769974-fla22p99r7vqlnll09rou0dsjk04ohf7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "864118769974-jjqjb8lap2070mas7b7n99aifv2ssc07.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.crossroad"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864118769974:android:2e9c02d149e6169e588b97",
+        "android_client_info": {
+          "package_name": "com.example.crossroad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864118769974-fla22p99r7vqlnll09rou0dsjk04ohf7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV01pp9zvi_OtFltqvjmAVxiNVenCOVyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864118769974-fla22p99r7vqlnll09rou0dsjk04ohf7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "864118769974-jjqjb8lap2070mas7b7n99aifv2ssc07.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.crossroad"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
