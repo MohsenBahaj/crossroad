@@ -1,53 +1,99 @@
 # 🌐 Crossroads App
 
-**Crossroads** is a modern mobile application designed to provide users with seamless connectivity and intuitive features. With a clean UI, robust backend, and essential functionality, this app is perfect for users who value simplicity and reliability.
+**Crossroads** is a modern, high-performance mobile application built with Flutter, designed to provide a seamless and intuitive shopping and media experience. Leveraging the power of Firebase and GetX, Crossroads offers robust authentication, real-time data synchronization, and a beautiful, responsive UI.
 
 ---
 
-## 🚀 Features
-
-- **Firebase Cloud Storage Integration**:
-  - Securely store and retrieve user data.
-  - Enable smooth data synchronization across devices.
-
-- **Push Notifications**:
-  - Keep users informed and engaged with timely updates and alerts.
-
-- **Google Authentication**:
-  - Effortlessly log in using Google credentials for a secure and user-friendly experience.
-
-- **Seamless User Interface**:
-  - Beautifully designed UI that prioritizes ease of use and smooth navigation.
+> [!IMPORTANT]
+> **Technical Portfolio Disclaimer**: This project is developed as part of a technical portfolio to demonstrate proficiency in Flutter development, Firebase integration, and modern UI/UX design patterns. It is intended for showcase purposes.
 
 ---
 
-## 🛠️ Technologies Used
+## 🚀 Key Features
 
-- **Frontend**:
-  - Flutter: To build a cross-platform, high-performance, and visually appealing UI.
-
-- **Backend**:
-  - Firebase Cloud Storage: For managing user data storage.
-  - Firebase Authentication: For Google login and user management.
-
-- **Notification Service**:
-  - Firebase Cloud Messaging (FCM): To send real-time notifications.
+- **🔐 Secure Authentication**: Integrated Google Sign-In and Firebase Authentication for a smooth and secure onboarding experience.
+- **🛍️ E-commerce Functionality**: Complete shopping flow including product browsing, cart management, and checkout.
+- **☁️ Firebase Integration**: 
+  - **Cloud Firestore**: Real-time NoSQL database for efficient data management.
+  - **Firebase Storage**: Secure media and file storage.
+  - **FCM (Push Notifications)**: Real-time user engagement and alerts.
+- **📱 Modern UI/UX**:
+  - **GetX State Management**: Clean, efficient, and reactive state management.
+  - **Lottie Animations**: High-quality vector animations for an interactive feel.
+  - **Responsive Design**: Optimized for various screen sizes and orientations.
+- **🎥 Multimedia Support**: Integrated video playback (Flick Video Player) and high-quality image caching for an immersive experience.
+- **🛠️ Utility Driven**: Built-in network connectivity monitoring, local storage (GetStorage), and comprehensive helper utilities.
 
 ---
 
+## 📂 Project Structure
 
-## 📂 Directory Structure
+The project follows a clean, feature-driven architecture for scalability and maintainability.
 
 ```plaintext
 ├── lib/
-│   ├── main.dart          # Main entry point of the app
-│   ├── screens/           # Screens for different app functionalities
-│   ├── widgets/           # Reusable widgets for the UI
-│   ├── services/          # Firebase and backend services
-│   ├── utils/             # Utility functions and helpers
+│   ├── bindings/          # Dependency injection setup using GetX bindings
+│   ├── common/            # Reusable components, widgets, and styles
+│   ├── data/              # Data layer (repositories, providers, and models)
+│   ├── features/          # Core application features
+│   │   ├── authentication/  # Login, Register, and Onboarding
+│   │   ├── crossroad/       # Main features (Home, Browse, Cart, Checkout, Episodes)
+│   │   ├── personalization/ # User profile, settings, and addresses
+│   │   └── services/        # Specific feature-related services
+│   ├── utils/             # Helper functions, constants, and themes
+│   ├── app.dart           # Root widget and theme configuration
+│   └── main.dart          # Entry point of the application
 │
 ├── assets/
-│   ├── images/            # App assets (e.g., logos, icons)
-│   ├── fonts/             # Custom fonts used in the app
+│   ├── images/            # App banners, onboarding, and product images
+│   ├── logos/             # Branding and logo assets
+│   ├── fonts/             # Custom typography
+│   └── screenshots/       # Project demonstration images
 │
-├── pubspec.yaml           # Flutter dependencies and configurations
+└── pubspec.yaml           # Project dependencies and configuration
+```
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Flutter](https://flutter.dev/) (SDK ^3.5.1)
+- **Language**: [Dart](https://dart.dev/)
+- **State Management**: [GetX](https://pub.dev/packages/get)
+- **Backend Services**: [Firebase](https://firebase.google.com/)
+- **Network**: [Dio](https://pub.dev/packages/dio)
+- **Local Storage**: [GetStorage](https://pub.dev/packages/get_storage)
+
+---
+
+## 📸 Screenshots
+
+<div align="center">
+  <table style="width: 100%; border-collapse: collapse;">
+    <tr>
+      <td width="33.33%" align="center">
+        <img src="assets/screenshots/home page.png" width="90%" alt="Home Page"/><br/>
+        <b>Home Page</b>
+      </td>
+      <td width="33.33%" align="center">
+        <img src="assets/screenshots/dashbaord.jpg" width="90%" alt="Dashboard"/><br/>
+        <b>Dashboard</b>
+      </td>
+      <td width="33.33%" align="center">
+        <img src="assets/screenshots/search.png" width="90%" alt="Search"/><br/>
+        <b>Search</b>
+      </td>
+    </tr>
+    <tr>
+      <td width="33.33%" align="center">
+        <img src="assets/screenshots/settings.jpg" width="90%" alt="Settings"/><br/>
+        <b>Settings</b>
+      </td>
+      <td width="33.33%" align="center">
+        <img src="assets/screenshots/poster.jpg" width="90%" alt="App Poster"/><br/>
+        <b>App Poster</b>
+      </td>
+      <td width="33.33%"></td>
+    </tr>
+  </table>
+</div>
