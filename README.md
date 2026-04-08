@@ -2,17 +2,10 @@
 
 **Crossroads** is a modern, high-performance mobile application built with Flutter, designed to provide a seamless and intuitive shopping and media experience. Leveraging the power of Firebase and GetX, Crossroads offers robust authentication, real-time data synchronization, and a beautiful, responsive UI.
 
----
-
-> [!IMPORTANT]
-> **Technical Portfolio Disclaimer**: This project is developed as part of a technical portfolio to demonstrate proficiency in Flutter development, Firebase integration, and modern UI/UX design patterns. It is intended for showcase purposes.
-
----
 
 ## 🚀 Key Features
 
 - **🔐 Secure Authentication**: Integrated Google Sign-In and Firebase Authentication for a smooth and secure onboarding experience.
-- **🛍️ E-commerce Functionality**: Complete shopping flow including product browsing, cart management, and checkout.
 - **☁️ Firebase Integration**: 
   - **Cloud Firestore**: Real-time NoSQL database for efficient data management.
   - **Firebase Storage**: Secure media and file storage.
