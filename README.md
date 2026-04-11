@@ -1,6 +1,6 @@
 # 🌐 Crossroads App
 
-**Crossroads** is a modern, high-performance mobile application built with Flutter, designed to provide a seamless and intuitive shopping and media experience. Leveraging the power of Firebase and GetX, Crossroads offers robust authentication, real-time data synchronization, and a beautiful, responsive UI.
+**Crossroads** is a modern, high-performance mobile application built with Flutter, designed to provide a seamless and intuitive media platform. Leveraging the power of Firebase and GetX, Crossroads offers robust authentication, real-time data synchronization, and a beautiful, responsive UI.
 
 
 ## 🚀 Key Features
@@ -30,7 +30,7 @@ The project follows a clean, feature-driven architecture for scalability and mai
 │   ├── data/              # Data layer (repositories, providers, and models)
 │   ├── features/          # Core application features
 │   │   ├── authentication/  # Login, Register, and Onboarding
-│   │   ├── crossroad/       # Main features (Home, Browse, Cart, Checkout, Episodes)
+│   │   ├── crossroad/       # Main features (Home, Browse,  Episodes)
 │   │   ├── personalization/ # User profile, settings, and addresses
 │   │   └── services/        # Specific feature-related services
 │   ├── utils/             # Helper functions, constants, and themes
